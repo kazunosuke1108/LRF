@@ -14,3 +14,5 @@ rospy.init_node("listner_scan")
 sub=rospy.Subscriber("scan",LaserScan,scanCallback)
 
 rospy.spin()
+
+#Windowsから編集してみた
