@@ -16,3 +16,4 @@ sub=rospy.Subscriber("scan",LaserScan,scanCallback)
 rospy.spin()
 
 #Windowsから編集してみた
+#Ubuntuでも上記編集を確認できました
