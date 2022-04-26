@@ -1,4 +1,4 @@
 <launch>
     <node pkg="urg_node" name="urg_node" type="urg_node" output="screen"/>
-    <node pkg="lrf1_min" name="listner_scan" type="lrf_sub.py" output/>
+    <node pkg="lrf" name="listner_scan" type="lrf_sub.py"/>
 </launch>
